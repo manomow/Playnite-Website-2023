@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Playnite - video game library manager</title>
+	<link rel="shortcut icon" href="favicon.ico" />
+	
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:title" content="Playnite - video game library manager" />
+	<meta property="og:description" content="Video game library manager with one simple goal: To provide a unified interface for all of your games." />
+	<meta property="og:image" content="https://playnite.link/social_image.jpg" />
+	<meta name="description" content="Video game library manager with one simple goal: To provide a unified interface for all of your games.">
+	<meta name="author" content="Playnite">
+
+	<link rel="stylesheet" type="text/css" href="css/style2.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <div class="navigation">
+        <header>
+            <div class="logo">
+                <a href="https://playnite.link/">
+                    <img src="img/playnite-logo-default.svg">
+                </a>
+            </div>
+            <nav>
+                <ul class="navbar-text">
+                    <li><a href="https://twitter.com/AppPlaynite">News</a></li>
+                    <li><a href="https://playnite.link/addons.html">Add-ons</a></li>
+                    <li><a href="https://github.com/JosefNemec/Playnite/">GitHub</a></li>
+                    <li><a href="https://github.com/JosefNemec/Playnite/wiki">Wiki</a></li>
+                </ul>
+            </nav>
+            <div class="social">
+                <a href="https://playnite.link/">
+                    <img src="img/s-discord.svg"></a>
+                </a>
+                <a href="https://playnite.link/">
+                    <img src="img/s-reddit.svg">
+                </a>
+                <a href="https://playnite.link/">
+                    <img src="img/s-twitter.svg">
+                </a>
+                <a href="https://playnite.link/">
+                    <img src="img/s-patreon.svg">
+                </a>
+            </div>
+            <div class="menu">
+                <a href="javascript:void(0);" class="material-symbols-rounded" onclick="menuOverlay()" id="menuIcon">
+                    menu
+                </a>
+            </div>
+        </header>
+   
+        <div id="mobile">
+            <div class="mobile-menu">
+                <a href="https://twitter.com/AppPlaynite">News</a>
+                <a href="https://playnite.link/addons.html">Add-ons</a>
+                <a href="https://github.com/JosefNemec/Playnite/">GitHub</a>
+                <a href="https://github.com/JosefNemec/Playnite/wiki">Wiki</a>
+            </div>
+            <div class="mobile-social">
+                <a href="https://playnite.link/">
+                    <img src="img/s-discord.svg"></a>
+                </a>
+                <a href="https://playnite.link/">
+                    <img src="img/s-reddit.svg">
+                </a>
+                <a href="https://playnite.link/">
+                    <img src="img/s-twitter.svg">
+                </a>
+                <a href="https://playnite.link/">
+                    <img src="img/s-patreon.svg">
+                </a>
+            </div>
+        </div>            
+    </div>
+    <div id="overlay"></div>
+    <div class="hero">
+        <div class="title">
+            <p><span class="emphasis">Playnite</span> is an open source video game library manager with one simple goal</p>
+        </div>
+        <p class="subtitle">To provide a unified interface for all of your games.</p>
+        <a href="https://playnite.link/download/PlayniteInstaller.exe" class="button">Download</a>
+        <p class="dlsub">Windows 7 and newer supported <span class="dot">•</span> <a href="https://github.com/JosefNemec/Playnite/releases">Changelog</a></p>
+    </div>
+
+    <div class="features">
+        <div class="features-info">
+            <div class="features-box">
+                <h2 class="features-title">Import popular libraries</h2>
+                <p class="features-text">Link games from Steam, Epic, EA, GOG, Battle.net, Ubisoft Connect & <b>other services,</b> including games that are not installed!</p>
+            </div>
+            <hr>
+            <div class="features-box">
+                <h2 class="features-title">Emulation support</h2>
+                <p class="features-text">Playnite supports a wide variety of console emulators.</p>
+            </div>
+            <hr>
+            <div class="features-box">
+                <h2 class="features-title">Playtime counter</h2>
+                <p class="features-text">Whether it's a modern title or an emulated classic, Playnite allows you to easily keep track of how much time you've spent in-game.</p>
+            </div>
+        </div>
+        <div class="features-image">
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src= "img/screen1.jpg"></div>
+                <div class="swiper-slide"><img src= "img/screen2.jpg"></div>
+                <div class="swiper-slide"><img src= "img/screen3.jpg"></div>
+                <div class="swiper-slide"><img src= "img/screen4.jpg"></div>
+                <div class="swiper-slide"><img src= "img/screen5.jpg"></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+    <div class="fullscreen">
+        <div class="fullscreen-info">
+            <h2 class="fullscreen-title">Fullscreen mode</h2>
+            <p class="fullscreen-text">Experience your games in the best possible way with Playnite's fullscreen mode, complete with full controller support.</p>
+        </div>
+    </div>
+    <div class="addon-container">
+        <div class="addon">
+            <div class="addon-info">
+                <h2 class="addon-title">Extend & Customize Playnite with Add-ons</h2>
+                <p class="addon-text">Add-ons can integrate with your game libraries and metadata sources, while also providing a range of additional features.</p>
+                <p class="addon-text">Whether you're looking to change Playnite's appearance, modify its layout, or adjust its functionality, Add-ons tailor Playnite to your unique preferences.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="more">
+        <div class="more-row1">
+            <div class="more-section">
+                <img src= "img/icon_fast.svg">
+                <h2>Fast</h2>
+                <p>Playnite's UI is fast and light on resources, even with large libraries.</p>
+            </div>
+            <div class="more-section">
+                <img src= "img/icon_free.svg">
+                <h2>Completely Free</h2>
+                <p>No Playnite features are locked behind a paywall & the complete source code is available under the MIT license.</p>
+            </div>
+            <div class="more-section">
+                <img src= "img/icon_portable.svg">
+                <h2>Portable</h2>
+                <p>Playnite can run from portable storage without need of installing system dependencies.</p>
+            </div>
+        </div>
+        <div class="more-row2">
+            <div class="more-igdb">
+                <img src= "img/icon_igdb.svg">
+                <h2>IGDB Integration</h2>
+                <p>Playnite can automatically retrieve metadata for your games, including covers, descriptions, and other information from sources like IGDB.com. Add-ons can extend this functionality to other sources as well.</p>
+            </div>
+        </div>
+    </div>
+    <div class="faq">
+        <h1>Frequently Asked Questions</h1>
+        <div class="faq-text">
+            <div class="faq-left">
+                <div class="faq-section">
+                    <h2>What does Playnite’s name mean?</h2>
+                    <p>Playnite is a combination of Play and Unite</p>
+                </div>
+                <div class="faq-section">
+                    <h2>Will there be Linux or macOS version?</h2>
+                    <p>Not in near future, mainly for technical reasons. More information here.</p>
+                </div>
+                <div class="faq-section">
+                    <h2>Does Playnite support X controller?</h2>
+                    <p>Gamepad-Controller-support</p>
+                </div>
+            </div>
+            <div class="faq-right">
+                <div class="faq-section">
+                    <h2>Can I link multiple accounts?</h2>
+                    <p>You can't, unless a library integration plugin explicitly supports it (gives you an option to link multiple accounts)</p>
+                    <p>You can however link one account, import games, link a different account, import games again and you'll end up with a library that contains games from both accounts.
+                        Playnite never automatically removes games from the library so linking a different account won't affect games from other accounts in any way.</p>
+                </div>
+            </div>
+        </div>
+        <a href="" class="button">More F.A.Q.</a>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            loop: true,
+            autoplay: {
+                delay: 3800,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                dynamicBullets: true,
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+<script>
+    function menuOverlay() {
+        var x = document.getElementById("mobile"),
+            y = document.getElementById("overlay");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+            y.style.display = "none";
+            document.getElementById("menuIcon").innerHTML = "menu";
+        } else {
+            x.style.display = "block";
+            y.style.display = "block";
+            document.getElementById("menuIcon").innerHTML = "close";
+        }
+    }
+
+    document.getElementById("overlay").onclick = menuOverlay;
+</script>
+</body>
+</html>
