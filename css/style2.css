@@ -479,13 +479,13 @@ hr {
 .fullscreen-title{
 	color: var(--pn_lightblue);
 	margin-bottom: -.2em;
-    font-size: 30pt;
+    font-size: 25pt;
     line-height: 112.3%;
 }
 
 .fullscreen-info{
-    width: 12em;
-    font-size: 27px;
+    padding: 0 10%;
+    font-size: 15pt;
 }
 
 @media (min-width: 700px) {
@@ -750,7 +750,7 @@ p.addon-text {
 }
 
 .faq{
-    padding: 5% 0%;
+    padding: 10% 0%;
 }
 
 @media (min-width: 950px) {
