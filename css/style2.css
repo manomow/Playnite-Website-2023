@@ -539,6 +539,7 @@ hr {
     background-size: 200%, contain;
     background-position: center 12em;
     position: absolute;
+    background-position: bottom;
 }
 
 .addon-container{
@@ -578,7 +579,7 @@ p.addon-text {
     margin-top: 1em;
 }
 
-@media (min-width: 550px) {
+@media (min-width: 540px) {
     .addon::before {
         background-size: 200%, contain;
         background-position: center 11em;
